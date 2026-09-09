@@ -28,7 +28,9 @@ The logical/physical planning included a larger, actively cooled rack to address
 
 ### Network Security and Switching
 
-The existing design referenced Cisco switching infrastructure and a Cisco ASA 5516-X firewall. Selected existing equipment was retained in the physical design where appropriate rather than replaced indiscriminately.
+The design retained selected existing network infrastructure where appropriate, including the Cisco ASA 5516-X firewall and Cisco Catalyst switching equipment.
+
+**Source note:** The source documents contain an internal switch-model discrepancy: some design material references a Cisco Catalyst 9300 48-port PoE switch, while the physical asset list identifies two Cisco Catalyst 9200L 48-port PoE switches for reuse. The portfolio inventory follows the explicit physical asset-list entry and does not present the 9300 reference as a confirmed physical asset. See [Source Validation Notes](source-validation.md).
 
 ## Design Workflow
 
