@@ -11,7 +11,6 @@ This directory contains the narrative documentation for the Network Design Speci
 5. Review [Network Architecture](network-architecture.md), [Logical Design](logical-design.md), and [Physical Design](physical-design.md) for the proposed solution.
 6. Review [Asset Inventory](asset-inventory.md), [Implementation & Cost Analysis](implementation-and-cost-analysis.md), and [Implementation Timeline](../planning/implementation-timeline.md) for the planned execution model.
 7. Review [Technical Limitations & Assumptions](technical-limitations.md) and [Source Validation Notes](source-validation.md) for evidence boundaries and known source inconsistencies.
-8. Finish with the [Final Repository Review](final-review.md) for the portfolio quality gate and deliberate non-claims.
 
 ## Source-of-truth rule
 
