@@ -14,6 +14,8 @@ The repository separates **source evidence** from **portfolio reconstructions**.
 
 - [Documentation Guide](documentation/README.md) — recommended reading order and scope language
 - [Project Overview](documentation/project-overview.md) — background, process, and outcome
+- [Requirements-to-Design Traceability](documentation/requirements-to-design-traceability.md) — connects identified needs to design responses
+- [Technical Limitations & Assumptions](documentation/technical-limitations.md) — defines evidence, measurement, and deployment boundaries
 - [Source Validation Notes](documentation/source-validation.md) — documented inconsistencies and interpretation boundaries
 - [Source Documents](source-documents/README.md) — original anonymized project deliverables
 
@@ -22,6 +24,7 @@ The repository separates **source evidence** from **portfolio reconstructions**.
 | Area | Document | Purpose |
 |---|---|---|
 | Requirements | [Requirements Analysis](documentation/requirements-analysis.md) | Existing environment, user requirements, and identified problems |
+| Requirements | [Traceability Matrix](documentation/requirements-to-design-traceability.md) | Requirement → evidence → proposed response |
 | Analysis | [Traffic & Wi-Fi Analysis](documentation/traffic-and-wifi-analysis.md) | Capture method, Wi-Fi mapping, and performance findings |
 | Analysis | [Bandwidth Analysis](analysis/bandwidth-analysis.md) | Application bandwidth estimates and capacity planning |
 | Analysis | [Packet Analysis](analysis/packet-analysis.md) | Packet-capture findings and traffic observations |
@@ -31,6 +34,8 @@ The repository separates **source evidence** from **portfolio reconstructions**.
 | Inventory | [Asset Inventory](documentation/asset-inventory.md) | Proposed purchases, reused equipment, and planned returns |
 | Planning | [Implementation & Cost Analysis](documentation/implementation-and-cost-analysis.md) | Effort estimates and documented project costing |
 | Planning | [Implementation Timeline](planning/implementation-timeline.md) | Proposed work sequence, hours, and duration |
+| Validation | [Source Validation Notes](documentation/source-validation.md) | Internal inconsistencies and interpretation boundaries |
+| Validation | [Technical Limitations](documentation/technical-limitations.md) | Measurement, design, and outcome limitations |
 
 ## Diagrams
 
@@ -51,6 +56,7 @@ These are simplified portfolio reconstructions of the documented design. They in
 - Workstation and endpoint upgrade planning
 - Implementation scheduling and effort estimation
 - Infrastructure cost analysis
+- Traceable technical decision-making from requirements to proposed design
 
 ## Four Primary Improvement Areas
 
@@ -107,13 +113,15 @@ The proposed implementation plan covered equipment procurement, server-room mana
 │   ├── README.md
 │   ├── project-overview.md
 │   ├── requirements-analysis.md
+│   ├── requirements-to-design-traceability.md
 │   ├── traffic-and-wifi-analysis.md
 │   ├── network-architecture.md
 │   ├── logical-design.md
 │   ├── physical-design.md
 │   ├── asset-inventory.md
 │   ├── implementation-and-cost-analysis.md
-│   └── source-validation.md
+│   ├── source-validation.md
+│   └── technical-limitations.md
 ├── analysis/
 │   ├── bandwidth-analysis.md
 │   └── packet-analysis.md
