@@ -2,38 +2,43 @@
 
 A portfolio presentation of a network design and infrastructure planning project completed as part of a college project for a real client.
 
+> **Project status:** Proposed design and planning project. The project team completed the documented design phases but did not perform the production installation or deployment. The client reviewed the work as a reference, did not implement the exact solution documented here, and later made infrastructure changes independently.
+
 ## Project Overview
 
-This project documents the assessment and proposed redesign of a client network environment. The work connected requirements gathering and user feedback with traffic analysis, Wi-Fi analysis, logical network design, physical infrastructure planning, implementation planning, and cost analysis.
+This project connects requirements gathering and user feedback with traffic analysis, Wi-Fi analysis, logical network design, physical infrastructure planning, implementation planning, and cost analysis.
 
-The project was completed through the design and planning phases. The client reviewed the work and considered it as a reference point, but did not implement the exact solution documented here. Subsequent infrastructure changes were made independently by the client and are outside the scope of this project.
+The repository separates **source evidence** from **portfolio reconstructions**. The original academic PDF and presentation are retained under `source-documents/`; the Markdown documentation reorganizes the technical substance into focused, reviewable sections.
 
-## Documentation
+## Documentation Map
 
-| Document | Focus |
-|---|---|
-| [Project Overview](documentation/project-overview.md) | Background, scope, design process, and outcome |
-| [Requirements Analysis](documentation/requirements-analysis.md) | Existing environment, user requirements, and identified problems |
-| [Traffic & Wi-Fi Analysis](documentation/traffic-and-wifi-analysis.md) | Capture method, Wi-Fi mapping, and performance findings |
-| [Bandwidth Analysis](analysis/bandwidth-analysis.md) | Application bandwidth estimates and capacity planning |
-| [Packet Analysis](analysis/packet-analysis.md) | Packet capture findings and traffic observations |
-| [Network Architecture](documentation/network-architecture.md) | High-level proposed architecture and design boundaries |
-| [Logical Design](documentation/logical-design.md) | Proposed infrastructure alternatives and logical design decisions |
-| [Physical Design](documentation/physical-design.md) | Equipment, rack, endpoint, cabling, and workplace planning |
-| [Asset Inventory](documentation/asset-inventory.md) | Proposed purchases, reused equipment, and planned returns |
-| [Implementation & Cost Analysis](documentation/implementation-and-cost-analysis.md) | Effort estimates and documented project costing |
-| [Implementation Timeline](planning/implementation-timeline.md) | Proposed work sequence, hours, and duration |
+| Area | Document | Purpose |
+|---|---|---|
+| Start here | [Project Overview](documentation/project-overview.md) | Background, scope, process, and outcome |
+| Requirements | [Requirements Analysis](documentation/requirements-analysis.md) | Existing environment, user requirements, and identified problems |
+| Analysis | [Traffic & Wi-Fi Analysis](documentation/traffic-and-wifi-analysis.md) | Capture method, Wi-Fi mapping, and performance findings |
+| Analysis | [Bandwidth Analysis](analysis/bandwidth-analysis.md) | Application bandwidth estimates and capacity planning |
+| Analysis | [Packet Analysis](analysis/packet-analysis.md) | Packet-capture findings and traffic observations |
+| Design | [Network Architecture](documentation/network-architecture.md) | High-level proposed architecture and design boundaries |
+| Design | [Logical Design](documentation/logical-design.md) | Proposed infrastructure alternatives and logical design decisions |
+| Design | [Physical Design](documentation/physical-design.md) | Equipment, rack, endpoint, cabling, and workplace planning |
+| Inventory | [Asset Inventory](documentation/asset-inventory.md) | Proposed purchases, reused equipment, and planned returns |
+| Planning | [Implementation & Cost Analysis](documentation/implementation-and-cost-analysis.md) | Effort estimates and documented project costing |
+| Planning | [Implementation Timeline](planning/implementation-timeline.md) | Proposed work sequence, hours, and duration |
+| Validation | [Source Validation Notes](documentation/source-validation.md) | Internal inconsistencies and interpretation boundaries |
+
+For the recommended reading order, see the [Documentation Guide](documentation/README.md).
 
 ## Diagrams
 
 - [Logical Network Diagram](diagrams/logical-network.md)
 - [Physical Network Design Diagram](diagrams/physical-network.md)
 
-The diagrams are simplified portfolio reconstructions of the documented design. They intentionally avoid inventing detailed addressing, VLAN IDs, routing protocols, firewall rules, or hardware configurations that are not supported by the source material.
+These are simplified portfolio reconstructions of the documented design. They intentionally avoid inventing detailed addressing, VLAN IDs, routing protocols, firewall rules, access-point models, or production configurations that are not supported by the source material.
 
 ## What This Project Demonstrates
 
-- Network requirements gathering and documentation
+- Network requirements gathering and technical documentation
 - Translating user and business requirements into infrastructure decisions
 - Packet capture and traffic analysis using Wireshark
 - Wi-Fi coverage and performance mapping
@@ -43,28 +48,34 @@ The diagrams are simplified portfolio reconstructions of the documented design. 
 - Workstation and endpoint upgrade planning
 - Implementation scheduling and effort estimation
 - Infrastructure cost analysis
-- Technical documentation and presentation
 
-## Project Scope
-
-The design process addressed four primary improvement areas:
+## Four Primary Improvement Areas
 
 1. Network backbone and wireless performance
 2. Employee workstation performance
 3. Server-rack capacity and cooling
 4. Workplace ergonomics
 
-The analysis included a network walkthrough, user survey, packet capture, Wi-Fi mapping, infrastructure assessment, equipment selection, and proposed implementation planning.
+The analysis combined a network walkthrough, user survey, packet capture, Wi-Fi mapping, infrastructure assessment, equipment selection, and proposed implementation planning.
 
 ## Key Analysis
 
-A traffic capture was performed through a SPAN-connected laptop using Wireshark and scheduled capture intervals. The project documented approximately 900 MB of captured traffic and 6,436,267 packets in the referenced capture.
+The project used a SPAN-connected laptop with Wireshark and scheduled capture intervals. The documented capture contained approximately **900 MB** of traffic and **6,436,267 packets**.
 
-The documented application traffic estimates included 0.144 Mbps for email, 12 Mbps for FTP-server traffic, and 4.8 Mbps for security-camera traffic, for a combined estimate of 16.944 Mbps across those modeled applications.
+The documented application estimates were:
+
+| Modeled traffic | Estimated bandwidth |
+|---|---:|
+| Email | 0.144 Mbps |
+| FTP server | 12 Mbps |
+| Security cameras | 4.8 Mbps |
+| **Combined modeled traffic** | **16.944 Mbps** |
+
+The 16.944 Mbps figure represents only the modeled applications in the project analysis; it is not presented as the complete bandwidth requirement of the organization.
 
 ## Proposed Improvements
 
-The proposed design included:
+The documented design considered:
 
 - Higher-speed business Internet connectivity
 - Replacement of the existing employee workstation fleet
@@ -72,7 +83,17 @@ The proposed design included:
 - Adjustable sit/stand desks
 - Continued use of selected existing network and peripheral equipment where appropriate
 
-The project also documented an implementation plan covering equipment procurement, server-room management, cabling, wireless work, workstation management, and ergonomics.
+The proposed implementation plan covered equipment procurement, server-room management, cabling, wireless work, workstation management, and ergonomics.
+
+## Project Status & Scope Boundary
+
+**Completed by the team:** Requirements gathering, traffic/performance analysis, logical design, physical design, implementation planning, and cost analysis.
+
+**Not completed by the project team:** Physical installation, production configuration, deployment, production testing, and maintenance.
+
+**Client outcome:** The client reviewed and considered the project as a reference point but did not implement the exact solution documented here. Later infrastructure changes were made independently by the client and are outside this project's scope.
+
+**Cost boundary:** The documented CAD cost figures are proposed/estimated planning values, not evidence of actual procurement expenditure by the project team.
 
 ## Repository Structure
 
@@ -80,6 +101,7 @@ The project also documented an implementation plan covering equipment procuremen
 .
 ├── README.md
 ├── documentation/
+│   ├── README.md
 │   ├── project-overview.md
 │   ├── requirements-analysis.md
 │   ├── traffic-and-wifi-analysis.md
@@ -87,7 +109,8 @@ The project also documented an implementation plan covering equipment procuremen
 │   ├── logical-design.md
 │   ├── physical-design.md
 │   ├── asset-inventory.md
-│   └── implementation-and-cost-analysis.md
+│   ├── implementation-and-cost-analysis.md
+│   └── source-validation.md
 ├── analysis/
 │   ├── bandwidth-analysis.md
 │   └── packet-analysis.md
@@ -96,22 +119,11 @@ The project also documented an implementation plan covering equipment procuremen
 ├── diagrams/
 │   ├── logical-network.md
 │   └── physical-network.md
-├── source-documents/
-│   ├── NDP - GDrive.pdf
-│   ├── NDP - GDrive.pptx
-│   └── README.md
-└── assets/
-    └── diagrams/
-        └── README.md
+└── source-documents/
+    ├── NDP - GDrive.pdf
+    ├── NDP - GDrive.pptx
+    └── README.md
 ```
-
-## Project Status
-
-**Completed by the team:** Requirements gathering, traffic/performance analysis, logical design, physical design, implementation planning, and cost analysis.
-
-**Not completed by the project team:** Physical installation, production configuration, deployment, testing, and maintenance.
-
-**Important:** This repository presents the work as a proposed design and planning project. It does not claim that the documented solution was deployed in production.
 
 ## Technologies and Tools Referenced
 
@@ -133,4 +145,4 @@ The project also documented an implementation plan covering equipment procuremen
 
 ## Portfolio Note
 
-This repository is intended to make the technical reasoning, analysis, planning, and documentation behind the project easier to review than the original academic submission alone.
+This repository is designed to make the technical reasoning, analysis, planning, and documentation behind the project easier to review than the original academic submission alone.
