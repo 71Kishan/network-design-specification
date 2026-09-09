@@ -4,30 +4,35 @@ A portfolio presentation of a network design and infrastructure planning project
 
 ## Project Overview
 
-This project documents the analysis and proposed redesign of a client network environment. The work covered requirements gathering, traffic and Wi-Fi analysis, logical network design, physical infrastructure planning, implementation planning, and cost analysis.
+This project documents the assessment and proposed redesign of a client network environment. The work connected requirements gathering and user feedback with traffic analysis, Wi-Fi analysis, logical network design, physical infrastructure planning, implementation planning, and cost analysis.
 
-The project was completed through the design and planning phases. The client reviewed the work and used it as a reference point, but did not implement the exact solution documented here. Subsequent infrastructure changes were made independently by the client and are outside the scope of this project.
+The project was completed through the design and planning phases. The client reviewed the work and considered it as a reference point, but did not implement the exact solution documented here. Subsequent infrastructure changes were made independently by the client and are outside the scope of this project.
 
 ## Documentation
 
 | Document | Focus |
 |---|---|
-| [Project Overview](documentation/project-overview.md) | Background, scope, process, and outcome |
-| [Requirements Analysis](documentation/requirements-analysis.md) | Requirements gathering and identified problems |
-| [Traffic & Wi-Fi Analysis](documentation/traffic-and-wifi-analysis.md) | Packet capture, bandwidth estimates, and wireless analysis |
-| [Logical Design](documentation/logical-design.md) | Proposed network and infrastructure architecture |
-| [Physical Design](documentation/physical-design.md) | Equipment, rack, cabling, endpoint, and workplace planning |
-| [Implementation & Cost Analysis](documentation/implementation-and-cost-analysis.md) | Schedule, effort, and documented project costing |
+| [Project Overview](documentation/project-overview.md) | Background, scope, design process, and outcome |
+| [Requirements Analysis](documentation/requirements-analysis.md) | Existing environment, user requirements, and identified problems |
+| [Traffic & Wi-Fi Analysis](documentation/traffic-and-wifi-analysis.md) | Capture method, Wi-Fi mapping, and performance findings |
+| [Bandwidth Analysis](analysis/bandwidth-analysis.md) | Application bandwidth estimates and capacity planning |
+| [Packet Analysis](analysis/packet-analysis.md) | Packet capture findings and traffic observations |
+| [Network Architecture](documentation/network-architecture.md) | High-level proposed architecture and design boundaries |
+| [Logical Design](documentation/logical-design.md) | Proposed infrastructure alternatives and logical design decisions |
+| [Physical Design](documentation/physical-design.md) | Equipment, rack, endpoint, cabling, and workplace planning |
+| [Asset Inventory](documentation/asset-inventory.md) | Proposed purchases, reused equipment, and planned returns |
+| [Implementation & Cost Analysis](documentation/implementation-and-cost-analysis.md) | Effort estimates and documented project costing |
+| [Implementation Timeline](planning/implementation-timeline.md) | Proposed work sequence, hours, and duration |
 
 ## What This Project Demonstrates
 
 - Network requirements gathering and documentation
-- Analysis of network performance and user requirements
+- Translating user and business requirements into infrastructure decisions
 - Packet capture and traffic analysis using Wireshark
 - Wi-Fi coverage and performance mapping
 - Bandwidth estimation and capacity planning
-- Logical network design and infrastructure planning
-- Physical equipment and rack planning
+- Logical network and infrastructure design
+- Physical equipment, rack, and cabling planning
 - Workstation and endpoint upgrade planning
 - Implementation scheduling and effort estimation
 - Infrastructure cost analysis
@@ -46,16 +51,16 @@ The analysis included a network walkthrough, user survey, packet capture, Wi-Fi 
 
 ## Key Analysis
 
-A traffic capture was performed through a SPAN-connected laptop using Wireshark and scheduled capture intervals. The project documented approximately 900 MB of captured traffic over the analysis period, with 6,436,267 packets recorded in the referenced capture.
+A traffic capture was performed through a SPAN-connected laptop using Wireshark and scheduled capture intervals. The project documented approximately 900 MB of captured traffic and 6,436,267 packets in the referenced capture.
 
-The documented application traffic estimates included approximately 0.144 Mbps for email, 12 Mbps for FTP-server traffic, and 4.8 Mbps for security-camera traffic, for a combined estimate of 16.944 Mbps across those applications.
+The documented application traffic estimates included 0.144 Mbps for email, 12 Mbps for FTP-server traffic, and 4.8 Mbps for security-camera traffic, for a combined estimate of 16.944 Mbps across those modeled applications.
 
 ## Proposed Improvements
 
 The proposed design included:
 
 - Higher-speed business Internet connectivity
-- Replacement of existing employee workstations
+- Replacement of the existing employee workstation fleet
 - A larger, actively cooled server rack
 - Adjustable sit/stand desks
 - Continued use of selected existing network and peripheral equipment where appropriate
@@ -71,10 +76,22 @@ The project also documented an implementation plan covering equipment procuremen
 │   ├── project-overview.md
 │   ├── requirements-analysis.md
 │   ├── traffic-and-wifi-analysis.md
+│   ├── bandwidth-analysis.md
+│   ├── packet-analysis.md
+│   ├── network-architecture.md
 │   ├── logical-design.md
 │   ├── physical-design.md
+│   ├── asset-inventory.md
 │   └── implementation-and-cost-analysis.md
+├── analysis/
+│   ├── bandwidth-analysis.md
+│   └── packet-analysis.md
+├── planning/
+│   └── implementation-timeline.md
+├── diagrams/
 ├── source-documents/
+│   ├── NDP - GDrive.pdf
+│   ├── NDP - GDrive.pptx
 │   └── README.md
 └── assets/
     └── diagrams/
@@ -83,9 +100,9 @@ The project also documented an implementation plan covering equipment procuremen
 
 ## Project Status
 
-**Completed:** Requirements, analysis, logical design, physical design, implementation planning, and cost analysis.
+**Completed by the team:** Requirements gathering, traffic/performance analysis, logical design, physical design, implementation planning, and cost analysis.
 
-**Not completed by the project team:** Physical installation/deployment.
+**Not completed by the project team:** Physical installation, production configuration, deployment, testing, and maintenance.
 
 **Important:** This repository presents the work as a proposed design and planning project. It does not claim that the documented solution was deployed in production.
 
