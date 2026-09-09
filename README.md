@@ -24,6 +24,13 @@ The project was completed through the design and planning phases. The client rev
 | [Implementation & Cost Analysis](documentation/implementation-and-cost-analysis.md) | Effort estimates and documented project costing |
 | [Implementation Timeline](planning/implementation-timeline.md) | Proposed work sequence, hours, and duration |
 
+## Diagrams
+
+- [Logical Network Diagram](diagrams/logical-network.md)
+- [Physical Network Design Diagram](diagrams/physical-network.md)
+
+The diagrams are simplified portfolio reconstructions of the documented design. They intentionally avoid inventing detailed addressing, VLAN IDs, routing protocols, firewall rules, or hardware configurations that are not supported by the source material.
+
 ## What This Project Demonstrates
 
 - Network requirements gathering and documentation
@@ -76,8 +83,6 @@ The project also documented an implementation plan covering equipment procuremen
 │   ├── project-overview.md
 │   ├── requirements-analysis.md
 │   ├── traffic-and-wifi-analysis.md
-│   ├── bandwidth-analysis.md
-│   ├── packet-analysis.md
 │   ├── network-architecture.md
 │   ├── logical-design.md
 │   ├── physical-design.md
@@ -89,6 +94,8 @@ The project also documented an implementation plan covering equipment procuremen
 ├── planning/
 │   └── implementation-timeline.md
 ├── diagrams/
+│   ├── logical-network.md
+│   └── physical-network.md
 ├── source-documents/
 │   ├── NDP - GDrive.pdf
 │   ├── NDP - GDrive.pptx
