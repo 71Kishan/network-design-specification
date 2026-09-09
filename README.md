@@ -8,6 +8,17 @@ This project documents the analysis and proposed redesign of a client network en
 
 The project was completed through the design and planning phases. The client reviewed the work and used it as a reference point, but did not implement the exact solution documented here. Subsequent infrastructure changes were made independently by the client and are outside the scope of this project.
 
+## Documentation
+
+| Document | Focus |
+|---|---|
+| [Project Overview](documentation/project-overview.md) | Background, scope, process, and outcome |
+| [Requirements Analysis](documentation/requirements-analysis.md) | Requirements gathering and identified problems |
+| [Traffic & Wi-Fi Analysis](documentation/traffic-and-wifi-analysis.md) | Packet capture, bandwidth estimates, and wireless analysis |
+| [Logical Design](documentation/logical-design.md) | Proposed network and infrastructure architecture |
+| [Physical Design](documentation/physical-design.md) | Equipment, rack, cabling, endpoint, and workplace planning |
+| [Implementation & Cost Analysis](documentation/implementation-and-cost-analysis.md) | Schedule, effort, and documented project costing |
+
 ## What This Project Demonstrates
 
 - Network requirements gathering and documentation
@@ -64,10 +75,10 @@ The project also documented an implementation plan covering equipment procuremen
 │   ├── physical-design.md
 │   └── implementation-and-cost-analysis.md
 ├── source-documents/
-│   ├── Network-Design-Specification.pdf
-│   └── Network-Design-Presentation.pptx
+│   └── README.md
 └── assets/
     └── diagrams/
+        └── README.md
 ```
 
 ## Project Status
