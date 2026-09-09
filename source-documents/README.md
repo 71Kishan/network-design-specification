@@ -1,14 +1,18 @@
 # Source Documents
 
-This directory is reserved for the project PDF and presentation.
+This directory contains the original project deliverables used as the source for the portfolio documentation in this repository.
 
-The source materials are the original project deliverables used to develop the portfolio documentation in this repository.
+## Source Files
 
-When publishing the documents, use the anonymized/public versions of the project files. The public versions should keep client/company identities and contact information generalized while preserving the technical content needed to understand the project.
+- `NDP - GDrive.pdf` — project report / documentation
+- `NDP - GDrive.pptx` — project presentation
 
-Recommended files:
+The source files are retained separately from the portfolio documentation so a reviewer can either read the concise technical case study or inspect the original project deliverables.
 
-- `Network-Design-Specification.pdf`
-- `Network-Design-Presentation.pptx`
+## Publication Note
 
-The repository documentation is intentionally separated from the original academic deliverables so the technical story can be reviewed quickly without requiring the reader to open a 28-page report or a full presentation.
+The project was completed for a real client as a college project. The public source files have been anonymized/generalized for portfolio use. The technical content is retained while client/company identity and contact information are not intended to be used as identifying information.
+
+## Scope Note
+
+These documents describe requirements gathering, analysis, logical design, physical design, implementation planning, and cost analysis. They do **not** establish that the student team physically installed or deployed the proposed network. The portfolio documentation therefore distinguishes observed conditions, proposed design decisions, estimated implementation work, and actual project completion status.
