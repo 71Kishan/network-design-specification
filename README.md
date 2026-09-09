@@ -10,11 +10,17 @@ This project connects requirements gathering and user feedback with traffic anal
 
 The repository separates **source evidence** from **portfolio reconstructions**. The original academic PDF and presentation are retained under `source-documents/`; the Markdown documentation reorganizes the technical substance into focused, reviewable sections.
 
+## Start Here
+
+- [Documentation Guide](documentation/README.md) — recommended reading order and scope language
+- [Project Overview](documentation/project-overview.md) — background, process, and outcome
+- [Source Validation Notes](documentation/source-validation.md) — documented inconsistencies and interpretation boundaries
+- [Source Documents](source-documents/README.md) — original anonymized project deliverables
+
 ## Documentation Map
 
 | Area | Document | Purpose |
 |---|---|---|
-| Start here | [Project Overview](documentation/project-overview.md) | Background, scope, process, and outcome |
 | Requirements | [Requirements Analysis](documentation/requirements-analysis.md) | Existing environment, user requirements, and identified problems |
 | Analysis | [Traffic & Wi-Fi Analysis](documentation/traffic-and-wifi-analysis.md) | Capture method, Wi-Fi mapping, and performance findings |
 | Analysis | [Bandwidth Analysis](analysis/bandwidth-analysis.md) | Application bandwidth estimates and capacity planning |
@@ -25,9 +31,6 @@ The repository separates **source evidence** from **portfolio reconstructions**.
 | Inventory | [Asset Inventory](documentation/asset-inventory.md) | Proposed purchases, reused equipment, and planned returns |
 | Planning | [Implementation & Cost Analysis](documentation/implementation-and-cost-analysis.md) | Effort estimates and documented project costing |
 | Planning | [Implementation Timeline](planning/implementation-timeline.md) | Proposed work sequence, hours, and duration |
-| Validation | [Source Validation Notes](documentation/source-validation.md) | Internal inconsistencies and interpretation boundaries |
-
-For the recommended reading order, see the [Documentation Guide](documentation/README.md).
 
 ## Diagrams
 
