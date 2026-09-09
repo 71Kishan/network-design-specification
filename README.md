@@ -17,6 +17,7 @@ The repository separates **source evidence** from **portfolio reconstructions**.
 - [Requirements-to-Design Traceability](documentation/requirements-to-design-traceability.md) — connects identified needs to design responses
 - [Technical Limitations & Assumptions](documentation/technical-limitations.md) — defines evidence, measurement, and deployment boundaries
 - [Source Validation Notes](documentation/source-validation.md) — documented inconsistencies and interpretation boundaries
+- [Final Repository Review](documentation/final-review.md) — portfolio quality gate and deliberate non-claims
 - [Source Documents](source-documents/README.md) — original anonymized project deliverables
 
 ## Documentation Map
@@ -36,6 +37,7 @@ The repository separates **source evidence** from **portfolio reconstructions**.
 | Planning | [Implementation Timeline](planning/implementation-timeline.md) | Proposed work sequence, hours, and duration |
 | Validation | [Source Validation Notes](documentation/source-validation.md) | Internal inconsistencies and interpretation boundaries |
 | Validation | [Technical Limitations](documentation/technical-limitations.md) | Measurement, design, and outcome limitations |
+| QA | [Final Repository Review](documentation/final-review.md) | Final consistency and scope-quality review |
 
 ## Diagrams
 
@@ -121,7 +123,8 @@ The proposed implementation plan covered equipment procurement, server-room mana
 │   ├── asset-inventory.md
 │   ├── implementation-and-cost-analysis.md
 │   ├── source-validation.md
-│   └── technical-limitations.md
+│   ├── technical-limitations.md
+│   └── final-review.md
 ├── analysis/
 │   ├── bandwidth-analysis.md
 │   └── packet-analysis.md
