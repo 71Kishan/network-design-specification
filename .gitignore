@@ -1,0 +1,22 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary / generated files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Local exports / working copies
+*.csv
+*.xlsx
+
+# Python cache if analysis scripts are added later
+__pycache__/
+*.py[cod]
+
+# Keep local/private working material out of the public repository
+.env
