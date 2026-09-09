@@ -36,6 +36,8 @@ The largest cost component in the documented proposal was the 70-unit workstatio
 
 The project compared candidate equipment, multiplied unit pricing by the required quantity, applied the documented tax amounts, and then combined equipment and labor costs.
 
+The **$270,034.61 CAD** figure is a proposed project estimate from the academic design. It should not be interpreted as actual procurement expenditure, a completed contract value, or money spent by the project team.
+
 ## Implementation Scope
 
 The planned work covered procurement, server-room preparation, cabling, wireless work, workstation management, and ergonomic changes.
@@ -45,3 +47,7 @@ The project team did **not** perform the production installation. The implementa
 ## Project Status
 
 The client reviewed the completed design and planning work. The client did not implement the exact solution documented in this repository. Any later infrastructure changes were independently determined by the client and are outside the project's documented scope.
+
+## Interpretation Boundary
+
+The project documents a complete design/planning exercise, not a production delivery record. The hours and prices are useful for understanding how the proposed solution was scoped, but they cannot be used to claim that the work was actually procured, installed, configured, tested, or maintained by the student team.
